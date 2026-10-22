@@ -597,10 +597,10 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback, Run
         canvas.drawRoundRect(titleBox, 26f, 26f, paint);
 
         paint.setColor(Color.CYAN);
-        paint.setTextSize(64f);
+        paint.setTextSize(58f);
         paint.setFakeBoldText(true);
         paint.setTextAlign(Paint.Align.CENTER);
-        canvas.drawText("GALAXY STRIKER", screenWidth / 2f, screenHeight * 0.25f, paint);
+        canvas.drawText("GALAXY STRIKER 2", screenWidth / 2f, screenHeight * 0.25f, paint);
 
         paint.setColor(Color.YELLOW);
         paint.setTextSize(32f);
